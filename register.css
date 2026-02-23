@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align : center;
+    background-image:url("register.jpg");
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+label{
+   color: rgb(201, 12, 204); 
+}
+#f1, #f2,#f3 {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1.5px solid #f8c8dc;
+    padding: 25px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #ffffff, #ffe6f0);
+    box-shadow: 0 6px 18px rgba(248, 200, 220, 0.5);
+}
+marquee{
+    font-size:150px;
+    font-weight: 700;
+}
+.sub{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("submit.jpg");
+}

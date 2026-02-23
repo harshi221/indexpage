@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+<form action="submit.html" method="post" enctype="multipart/form-data">
+
+<fieldset id="f1">
+<h2>Register</h2>
+
+<label>First Name</label><br>
+<input type="text" name="firstname" placeholder="Enter first name" required><br><br>
+
+<label>Last Name</label><br>
+<input type="text" name="lastname" placeholder="Enter last name" required><br><br>
+
+<label>Email</label><br>
+<input type="email" name="email" placeholder="Enter email" required><br><br>
+
+<label>Password</label><br>
+<input type="password" name="password" placeholder="password" required><br><br>
+
+
+<label>Date of Birth</label><br>
+<input type="date" name="dob" required><br><br>
+
+<fieldset id="f2">
+<label>Gender:</label><br>
+
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
+
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">Female</label>
+
+<input type="radio" name="gender" value="other" id="other">
+<label for="other">Other</label>
+
+<br><br>
+
+<label>Phone Number</label><br>
+<input type="tel" name="phone" placeholder="10 digit number" pattern="[0-9]{10}" required><br><br>
+</fieldset>
+
+<fieldset id="f3">
+
+<label>Photo</label><br>
+<input type="file" name="photo"><br><br>
+<label>Course</label><br>
+<select >
+    <option>Select course</option>
+<option>BCA</option>
+<option>B.Com</option>
+<option>BA</option>
+<option>BBA</option>
+</select>
+</fieldset>
+<br><br>
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+
+</fieldset>
+
+
+</form>
+
+</body>
+</html>
